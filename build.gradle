@@ -58,16 +58,16 @@ repositories {
             }
         }
 
-        configureGitHubRepo('MCEngine Core API', 'https://maven.pkg.github.com/MCEngine/core-api')
-        configureGitHubRepo('MCEngine Guild API', 'https://maven.pkg.github.com/MCEngine/guild-api')
+        configureGitHubRepo('MCEngine Core API', 'https://maven.pkg.github.com/MCEngine-API/core')
+        configureGitHubRepo('MCEngine Guild API', 'https://maven.pkg.github.com/MCEngine-API/guild')
 }
 
 dependencies {
-    compileOnly 'io.github.mcengine:core-api:2025.0.7-18'
-    compileOnly 'io.github.mcengine:guild-api:2025.0.7-18'
+    compileOnly 'io.github.mcengine:core-api:2025.0.7-22'
+    compileOnly 'io.github.mcengine:guild-api:2025.0.7-22'
 
     compileOnly 'com.google.code.gson:gson:2.13.1'
-    compileOnly 'org.spigotmc:spigot-api:1.21.7-R0.1-SNAPSHOT'
+    compileOnly 'org.spigotmc:spigot-api:1.21.8-R0.1-SNAPSHOT'
     compileOnly 'org.mongodb:mongodb-driver-sync:5.5.1'
 }
 
