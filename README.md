@@ -1,3 +1,3 @@
-# 🛡️ Guild Information
+# Information 📖
 
-This project provides a shared library of commands, listeners, and other utilities for use across platforms in the {project name} Guild system.
+Info on [`website`](https://mcengine-website.github.io/guild/common/)
